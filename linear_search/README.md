@@ -1,3 +1,4 @@
+# Xətti axtarış(linear search) alqoritması
 Fərz edin ki, əyalətlərin birində poçt offisində işləyirsiniz. Əlinizdə çoxlu sayda məktub var. Vətəndaşlar poçt
 ofisinə yaxınlaşıb adlarına məktub olub olmadığını soruşurlar. Bu vətəndaşın adına məktub olub olmadığını 
 necə yoxlayarsınız? Təbii mövcüd bütün məktublara baxar və əgər sizə müraciət edən vətəndaşın adına uyğun bir
@@ -65,6 +66,7 @@ def linear_search(mektublar, kod):
     return "Məktub yoxdur"
 ```
 
+**Test**
 ```python
 import unittest
 
@@ -101,3 +103,5 @@ Xətti axtarış alqoritması kiçik və orta həcmli dağınıq massivlər üç
 Alqoritmadan anladığınız kimi bu alqoritm böyük çoxluqlar üçün əlverişli deyil belə ki,
 axtardığınız element massivin ən sonuncu elementi olsa bu zaman bütün elementləri bir
 bir yoxlamalı olacaqsınız. 
+
+*Tapşırıq*
