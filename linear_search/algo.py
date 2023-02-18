@@ -1,10 +1,10 @@
 # Xətti axtarış alqoritması
 def linear_search(mektublar, kod):
-    # Addım 1: proqramlaşdırmada indeks 0 dan başladığı üçün 1ə yox 0la eyniləşdiririk.
-    indeks = 0
-
     # çoxluqda/massivdə neçə element olduğunu müəyyən edirik.
     say = len(mektublar)
+
+    # Addım 1: proqramlaşdırmada indeks 0 dan başladığı üçün 1ə yox 0la eyniləşdiririk.
+    indeks = 0
 
     # Addım 2: indeks saydan kiçikdirsə axtarışa davam edirik
     while indeks < say:
